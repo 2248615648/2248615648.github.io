@@ -31,31 +31,6 @@
     
     <entry>
       <title>我会犹豫，但是我还是选择再爱你一次</title>
-      <link href="/2023/04/29/666/"/>
-      <url>/2023/04/29/666/</url>
-      
-        <content type="html"><![CDATA[<p><style><br>  .eye {<br>    width: 50px;<br>    height: 50px;<br>    background-color: white;<br>    border-radius: 50%;<br>    position: absolute;<br>    top: 50%;<br>    left: 50%;<br>    transform: translate(-50%, -50%);<br>    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);<br>    transition: transform 0.1s ease-in-out;<br>  }<br>  .pupil {<br>    width: 20px;<br>    height: 20px;<br>    background-color: black;<br>    border-radius: 50%;<br>    position: absolute;<br>    top: 50%;<br>    left: 50%;<br>    transform: translate(-50%, -50%);<br>  }</style></p><p><div class="eye">  <div class="pupil"></div><br>&lt;/div&gt;</p><script>  const eye = document.querySelector('.eye');  const pupil = document.querySelector('.pupil');  const bounds = eye.getBoundingClientRect();  const centerX = bounds.left + bounds.width / 2;  const centerY = bounds.top + bounds.height / 2;  document.addEventListener('mousemove', e => {    const x = e.clientX - centerX;    const y = e.clientY - centerY;    const angle = Math.atan2(y, x);    const radius = bounds.width * 0.2;    const offsetX = Math.cos(angle) * radius;    const offsetY = Math.sin(angle) * radius;    pupil.style.transform = `translate(${offsetX}px, ${offsetY}px)`;  });</script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 结束 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 坚持 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我会犹豫，但是我还是选择再爱你一次</title>
       <link href="/2023/04/29/%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%8B%87%E6%95%A2/"/>
       <url>/2023/04/29/%E7%AC%AC%E4%B9%9D%E7%AB%A0%E5%8B%87%E6%95%A2/</url>
       
